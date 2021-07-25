@@ -9,7 +9,7 @@ while( favSport != "Soccer" && favSport != "Basketball" && favSport != "Tennis" 
   favSport = prompt("What is your favorite Sport? Please choose one of these 1- Soccer ,2- Basketball ,3- Tennis")
 }
 
-var NumberOfPicture = prompt("How many times do you want to see pictures for your favorite sport")
+var NumberOfPicture = prompt("How many times do you want to see pictures of your favorite sport")
 
 while(NumberOfPicture > 10)
 {
