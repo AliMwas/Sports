@@ -2,6 +2,10 @@ var fName = prompt("what is your first name")
 
 alert("hey, wlecome to my website " + fName )
 
+function sports (){
+
+
+
 var favSport = prompt("What is your favorite Sport? Please choose one of these 1- Soccer ,2- Basketball ,3- Tennis")
 
 while( favSport != "Soccer" && favSport != "Basketball" && favSport != "Tennis" )
@@ -9,7 +13,7 @@ while( favSport != "Soccer" && favSport != "Basketball" && favSport != "Tennis" 
   favSport = prompt("What is your favorite Sport? Please choose one of these 1- Soccer ,2- Basketball ,3- Tennis")
 }
 
-var NumberOfPicture = prompt("How many times do you want to see pictures for your favorite sport")
+var NumberOfPicture = prompt("How many times do you want to see pictures of your favorite sport")
 
 while(NumberOfPicture > 10)
 {
@@ -45,7 +49,20 @@ document.write(
 + "<img  src='https://games4esl.com/wp-content/uploads/3-2.png?ezimgfmt=rs:300x300/rscb84/ng:webp/ngcb84' width='300' height='200'    /> "+ "</div>")
 }
 }
+}
 
 //else{
  // alert('This sport not available')
 //}
+function rateTheWebsite (){
+
+var rate = prompt("rate our website from 5")
+while(rate > 5)
+{
+  rate = prompt("the number must be less than five (5)") 
+}
+alert ('thanks for rating')
+
+}
+sports();
+rateTheWebsite();
